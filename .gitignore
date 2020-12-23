@@ -1,0 +1,25 @@
+_Local/
+
+#Ignore Visual Studio Code settings
+.vscode/
+
+#Ignore Circuit Studio intermediate files
+pcb/History/
+pcb/__Previews/
+pcb/Default Configuration/
+
+#Ignore MPLABx intermediate files
+*.bak
+software/BatteryController.X/build/
+software/BatteryController.X/debug/
+software/BatteryController.X/dist/
+software/BatteryController.X/nbproject/private/
+software/BatteryController.X/nbproject/Makefile-*.*
+software/BatteryController.X/nbproject/Package-*.*
+software/PowerSupply.X/debug/
+software/PowerSupply.X/build/
+software/PowerSupply.X/dist/
+software/PowerSupply.X/nbproject/private/
+software/PowerSupply.X/nbproject/Makefile-*.*
+software/PowerSupply.X/nbproject/Package-*.*
+*.mc3.bak
